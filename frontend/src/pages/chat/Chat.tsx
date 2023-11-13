@@ -579,8 +579,10 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Use this tool to brainstorm ideas for client emails, summarize reports, or kickstart a document.</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>It is safe to use, as your questions and data don't leave Forrester.  </h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>Please note, this model is unaware of internal Forrester information from sources like Sharepoint, OneDrive, or www.forrester.com. However, you may submit documents, reports, or blog posts and have the tool summarize for you.</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
